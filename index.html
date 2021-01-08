@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trivia-Comic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Vista Principal-->
+	<div id = "pag-uno" class="pantalla">
+  	<h1 id="fuente">TRIVIA-COMIC</h1>
+		<h2>¡Bienvenidx al mundo de los superhéroes!</h2>
+		<p>¿Cual es tu nombre?</p>
+		<input type="text" id="nombre">
+  <button id="botonIngresar">Ingresar</button>
+  </div>
+  <!--Saludo de Bienvenida-->
+  <div id = "pag-dos" class="pantalla">
+    <h1 id="saludo"></h1>
+    <h2>Demuestra qué tan fan eres de los súper héroes con este quiz</h2>
+    <p>Escoge en qué universo quieres jugar</p>
+    <button id="botonDc" class="main-button">DC</button>
+    <button id="botonMarvel" class="main-button">Marvel</button>
+  </div>
+
+  <!--PreguntasMarvel-->
+
+  <div id="preguntaMarvelUno" class="marvel">
+    <h1>1. En Infinity War, ¿cuál es la gema del infinito que protege Visión?</h1>
+    <img src="img/MARVEL1.png" alt="">
+    <button id="correctoMarvelUno"value="1">Gema de la mente</button>
+    <button id="incorrectoMarvelUno"value="0">Gema del tiempo</button>
+  </div>
+
+  <div id="preguntaMarvelDos" class="marvel">
+    <h1>2. ¿A qué mitología pertenece el Dios Thor?</h1>
+    <img src="img/MARVEL2.png" alt="">
+    <button id="incorrectoMarvelDos" value="0">Griega</button>
+    <button id="correctoMarvelDos"value="1">Nórdica</button>
+  </div>
+
+  <div id="preguntaMarvelTres"class="marvel">
+    <h1>3. ¿En que película apareció Thanos por primera vez?</h1>
+    <img src="img/MARVEL3.png" alt="">
+    <button id="incorrectoMarvelTres" value="0">Guardians of the galaxy</button>
+    <button id="correctoMarvelTres" value="1">The Avengers</button>
+  </div>
+
+
+  <div id="resultadoMarvel" class="marvel">
+    <h1 id="resultadoMarvelFinal"> </h1>
+    <h2 id="mensaje-uno"> </h2>
+    <p>Si deseas jugar nuevamente, escoge tu universo preferido</p>
+    <button id="volverAlInicioMarvel">Volver a jugar</button>
+  </div>  
+
+
+<!--PreguntasDC-->
+
+  <div id= "preguntaUnoDc" class="dc">
+    <h1>1.¿Cual es la debilidad de Superman?</h1>
+    <img src="img/DC1.png" alt="">
+    <button id="incorrectoDcUno">Balas</button>
+    <button id="correctoDcUno"value="1">Kryptonita</button>
+  </div>
+
+  <div id= "preguntaDosDc" class="dc">
+    <h1>2. ¿Cuál es el nombre de la madre de la Mujer Maravilla?</h1>
+    <img src="img/mujer maravilla.png" alt="">
+    <button id="correctoDcDos"value="1">Hipolita</button>
+    <button id="incorrectoDcDos">Athenea</button>
+  </div>
+
+  <div id= "preguntaTresDc" class="dc">
+   <h1>3. ¿Cómo se llama el mayordomo de Bruce Wayne?</h1>
+   <img src="img/DC3.jpg" alt="">
+   <button id="correctoDcTres"value="1">Alfred Pennyworth</button>
+   <button id="incorrectoDcTres">Alfred Gordon</button>
+  </div>
+
+  <div id="resultadoDc" class="dc">
+    <h1 id="resultadoTotalDc"></h1>
+    <h2 id="mensaje-dos"> </h2>
+    <p>Si deseas jugar nuevamente, escoge tu universo preferido</p>
+   <button id="volverAlInicioDc">Volver a jugar</button>
+  </div>  
+  
+  
+<script src="script.js"></script>
+</body>
+</html>

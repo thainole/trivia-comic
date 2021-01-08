@@ -1,0 +1,169 @@
+*{
+  text-align: center;
+  margin: 0%;
+  padding: 0%
+  }
+
+body{
+  width: 100vw ;
+  height: 100vh ;
+  margin: 0%;
+}
+.pantalla {
+  background-image: url(https://i.ytimg.com/vi/Wj6oo0dtANY/maxresdefault.jpg);
+  opacity: 0.9 ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100% ;
+  height: 100%;
+  }
+
+.pantalla h1{
+  -webkit-text-stroke: 2px black;
+  color: aliceblue;
+  font-family:fantasy;
+  padding-top: 60px;
+  font-size: 75px
+  }
+
+.pantalla h2{
+  color: aliceblue;
+  -webkit-text-stroke: 1px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 14px;
+  padding-top: 146px;
+  font-size: 30px
+  }
+
+.pantalla p{
+  color: aliceblue;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  padding: 7px
+  }
+
+.pantalla button {
+  background-color: aliceblue; 
+  border:1.5px solid black;
+  color: black;
+  padding: 6px ;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+.pantalla .main-button {
+  border:1.5px solid black;
+  color: whitesmoke;
+  padding: 7px ;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 4px;
+  margin: 15px;
+  cursor: pointer;
+}
+.pantalla #botonDc {
+  background-color: rgb(5, 5, 185);
+}
+.pantalla #botonMarvel {
+  background-color: rgb(165, 3, 3);
+}
+.marvel {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/34d6795b-cebd-411a-a522-636ff6704ff8/d8x9kcy-2d8f0016-874a-4730-8950-62a23fb496ba.png/v1/fill/w_1192,h_670,q_70,strp/captain_america_winter_soldier___desktop_wallpaper_by_skauf99_d8x9kcy-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvMzRkNjc5NWItY2ViZC00MTFhLWE1MjItNjM2ZmY2NzA0ZmY4XC9kOHg5a2N5LTJkOGYwMDE2LTg3NGEtNDczMC04OTUwLTYyYTIzZmI0OTZiYS5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.41vfQ7L_Kj7YYbmxGZBfjqpD4TEPWA0cbSonrE4qab0);
+  opacity: 0.9 ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100% ;
+  height: 100%;
+}
+
+.marvel h1{
+  color: rgb(14, 14, 14);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 60px;
+  padding-bottom: 25px;
+  font-size: 45px
+}
+.marvel h2{
+  color: rgb(34, 33, 33);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  }
+
+.marvel p{
+  color: rgb(34, 33, 33);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+  padding: 7px
+  }
+
+.marvel button {
+  background-color: rgb(165, 3, 3); 
+  border:1.5px solid black;
+  color: whitesmoke;
+  padding: 10px ;
+  margin: 20px;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.marvel img {
+  margin: auto;
+  display: block;
+  width: 30%;
+  height:45%;
+}
+
+.dc {
+  background-image: url(https://images2.alphacoders.com/446/thumb-1920-446666.jpg);
+  opacity: 0.9 ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}  
+.dc h1{
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px;
+  font-size: 45px
+}
+.dc h2{
+  color: rgb(34, 33, 33);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  padding-top: 45px;
+  font-size: 25px
+  }
+
+.dc p{
+  color: rgb(34, 33, 33);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+  padding: 10px;
+  font-size: 20px
+  }
+
+.dc button {
+  background-color: rgb(5, 5, 185); 
+  border:1.5px solid black;
+  color: whitesmoke;
+  padding: 10px ;
+  display: block;
+  margin: 20px auto;
+  font-size: 27px;
+  border-radius: 5px;
+  text-decoration-color: whitesmoke;
+  cursor: pointer;
+}
+
+.dc img {
+  margin: auto;
+  display: block;
+  width: 170px;
+  height:200px;
+}
+
